@@ -6,7 +6,9 @@ async function request(){
     const outputConfirm = "<h2>Dados obtidos do servidor!</h2>";
 
     document.getElementById("dados").innerHTML = outputJson;
-    document.getElementById("confirm").innerHTML = outputConfirm;
+    if (outputJson != null) {
+        document.getElementById("confirm").innerHTML = outputConfirm;
+    }
 }
 
 request();
