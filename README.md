@@ -10,4 +10,6 @@ A função `request` é uma função assíncrona, dito isso, ela não espera a f
 ### 3 - altere o código para resolver o problema.
 Alterado! inseri um `if` verificando se existe dados ou não para inserir a mensagem de confirmação.
 
+
+
 Atividade da matéria de Sistemas Distribuídos 
